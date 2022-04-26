@@ -1,0 +1,12 @@
+1. Separate chaining handles collision by adding each duplicate hash key into a linked list.
+The advantages are that it can handle a load higher than the size of the list. Also, it minimizes
+clusters. The disadvantage is that it may lead to memory fragmentation due the linked lists.
+Lastly, items are easily removable.
+Linear Probing is when collisions are handled by inserting the duplicate hash key into the next
+available slot. When items are removed, the slot is marked as "deleted", when inserting "deleted" slots
+are accounted as full and thus insertion method skips over slot. The disadvantages are that linear probing
+cannot handle a load factor higher than 1. Also, too many "deleted" indexes causes the search time to
+get closer to linear.
+
+3. Size = 11, hashFunction() = i % 10, elements: 2, 12, 3, 13. For linear probing
+one can double the list size and change hashFunction to i % 21;
