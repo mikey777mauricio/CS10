@@ -17,6 +17,3 @@ Multi-User Drawing Pad using Server-Socket Communication
 Contained in the directory PS6 is my code for a collaborative graphical editor utilizing server-socket communication to allow multi-users/machines/editors modifying the same document.
 
 
-
-
-![image](https://user-images.githubusercontent.com/97063493/165313385-db6fe714-342d-47ac-a3c8-21440c47f547.png)
